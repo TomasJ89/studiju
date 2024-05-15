@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://kit.fontawesome.com/01b32d7dee.js" crossorigin="anonymous"></script>
+
+    <script src="script.js" defer></script>
+
+</head>
+<body class="p-5 d-flex gap-2 justify-content-around text-white">
+<div class= "chooseBet bg-success rounded-2 p-5 text-center d-flex flex-column">
+    <h2></h2>
+    <label for="betAmount">Bet Amount (100-1000 $):</label>
+    <input type="number" id="betAmount" name="betAmount" step="100" min="100" max="1000" placeholder="Choose Your Bet"/>
+    <div class="btn btn-primary mt-3 play">Play</div>
+</div>
+<div class ="gameTable bg-success rounded-2 p-5 text-center d-flex flex-column" >
+    <h2></h2>
+    <div class="dealer">
+        <h5>Dealer points: 0</h5>
+        <div class="dealerCards d-flex gap-1">
+            <div class="cardBox"></div>
+
+        </div>
+    </div>
+    <div class="player">
+        <h5>Player points: 0</h5>
+        <div class="playerCards d-flex gap-1">
+            <div class="cardBox"></div>
+
+        </div>
+
+    </div>
+    <div class="btn btn-primary mt-3 drawCard">Draw card</div>
+    <div class="btn btn-primary mt-3 stop">Stop</div>
+
+
+
+
+
+</div>
+</body>
+</html>

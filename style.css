@@ -1,0 +1,15 @@
+.cardBox {
+    width: 200px;
+    box-sizing: border-box;
+    height: 270px;
+    border-radius: 10px;
+    background-image: url("https://www.deckofcardsapi.com/static/img/back.png");
+    background-size: cover;
+    background-position: center;
+}
+.chooseBet {
+    width: 45%;
+}
+.gameTable {
+    width: 45%;
+}
